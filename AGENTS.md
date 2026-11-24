@@ -24,6 +24,7 @@ Codex-Engineering-Standards/
 ├── AGENTS.md
 ├── global/
 │   ├── AGENTS.md
+│   ├── chapters/  (eight standards chapters)
 │   └── settings-entry.md
 ├── guides/
 │   ├── project-initialization.md
@@ -44,7 +45,8 @@ This structure represents the intended organization. Update this document when t
 Each document must have a clear and independent responsibility.
 
 - `README.md`: Introduces the repository and explains how to use it.
-- `global/AGENTS.md`: Contains complete global engineering instructions.
+- [`global/AGENTS.md`](global/AGENTS.md): Defines the baseline and when to read each global standards chapter.
+- `global/chapters/`: Contains the eight global standards chapters. The index links to each chapter and defines its reading trigger.
 - `global/settings-entry.md`: Contains the concise global entry configured in the Codex environment.
 - `guides/`: Explains detailed engineering procedures.
 - `templates/`: Provides reusable project documentation formats.

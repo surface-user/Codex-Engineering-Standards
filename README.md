@@ -49,6 +49,7 @@ Codex-Engineering-Standards/
 │
 ├── global/
 │   ├── AGENTS.md
+│   ├── chapters/  (eight standards chapters)
 │   └── settings-entry.md
 │
 ├── guides/
@@ -82,9 +83,9 @@ The engineering standards use three levels:
 
 ### Global Instructions
 
-Define engineering behavior and constraints that apply across projects.
+The index defines baseline engineering rules and tells agents when to read each of the eight chapters under `global/chapters/`. Chapter content applies according to the task and the rules in that chapter.
 
-Location: `global/AGENTS.md`
+Location: [global standards index](global/AGENTS.md)
 
 ### Project Instructions
 
@@ -105,8 +106,8 @@ Detailed procedures and reusable document formats are maintained separately unde
 To use these standards:
 
 1. Clone this repository to your local development environment.
-2. Configure the global AGENTS.md entry in your Codex environment.
-3. Point the global entry to the complete instructions under `global/AGENTS.md`.
+2. Configure your Codex environment using [the global settings entry](global/settings-entry.md), with the index path adjusted to your local checkout if needed.
+3. The agent reads the full [global standards index](global/AGENTS.md) for each software engineering task and opens linked chapters when their triggers apply.
 4. When entering a software project, let Codex inspect its project-level AGENTS.md and relevant development documentation.
 5. Use the appropriate guides and templates when necessary.
 
