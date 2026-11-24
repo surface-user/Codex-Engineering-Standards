@@ -1,38 +1,38 @@
-# Global AGENTS.md
+# 全局 AGENTS.md 入口
 
-## 1. Global Engineering Standards
+## 1. 全局工程规范
 
-All software engineering tasks MUST follow the global engineering standards maintained at:
+每项软件工程任务都必须全文读取以下全局规范索引。
 
 `D:\computer_work\Codex-Engineering-Standards\global\AGENTS.md`
 
-MUST read and follow the complete instructions in that file when performing software engineering tasks.
+遵守索引中的通用规则。命中章节触发条件时，必须在作出相关决定或采取相关行动前读取并遵守该章。任务发生变化并触发其他章节时，补读相应章节。
 
-If the file cannot be accessed, report the issue explicitly. Do not assume its contents or claim that it has been read.
+若无法访问索引或必读章节，必须说明具体文件。不得猜测其内容或声称已读。
 
-## 2. Project Instructions
+## 2. 项目指令
 
-When entering a project:
+进入项目时，按以下步骤了解项目。
 
-1. Read the applicable project-level AGENTS.md.
-2. Understand the project structure and technology stack.
-3. Read relevant project documentation under docs/.
-4. Inspect actual code and configuration before making significant changes.
+1. 读取适用的项目级 AGENTS.md。
+2. 了解项目结构和技术栈。
+3. 阅读 `docs/` 下与任务相关的项目文档。
+4. 进行重大变更前，检查实际代码和配置。
 
-## 3. Reference Materials
+## 3. 参考资料
 
-The global standards repository contains:
+全局规范仓库提供以下资料。
 
-- `guides/`: Detailed engineering procedures.
-- `templates/`: Reusable project documentation templates.
+- `guides/` 存放详细的工程操作指南。
+- `templates/` 存放可复用的工程文档模板。
 
-Read these materials only when relevant to the current task.
+仅在当前任务需要时阅读相关资料。
 
-## 4. Core Principles
+## 4. 核心原则
 
-- Respect confirmed user requirements and authorization boundaries.
-- Base decisions on actual project state.
-- Keep engineering procedures practical and proportionate.
-- Preserve existing work and valuable historical records.
-- Verify actual results before reporting completion.
-- The main Agent remains responsible for task management and final acceptance.
+- 尊重用户已确认的需求和授权边界。
+- 根据项目实际状态作出决定。
+- 采用实用且与任务相称的工程流程。
+- 保留现有工作和有价值的历史记录。
+- 宣布完成前核验实际结果。
+- 主 Agent 负责任务管理和最终验收。
